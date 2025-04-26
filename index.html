@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Jual Beli</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Hubungi Pemilik</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form action="server_login.php" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Masuk</button>
+            </form>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Website ini adalah platform jual beli yang memungkinkan semua orang untuk menjual dan membeli produk dengan mudah.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Pemilik</h2>
+            <p>Untuk pertanyaan lebih lanjut, silakan hubungi kami di email: pemilik@website.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Website Jual Beli. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
